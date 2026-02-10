@@ -22,9 +22,6 @@ body {
   font-weight: 400;
 }
 
-header {
-}
-
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -35,7 +32,7 @@ header {
 }
 
 .container {
-  max-width: 82rem;
+  max-width: 1300px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -43,12 +40,13 @@ header {
 .nav-logo-container a {
   display: flex;
   justify-content: space-around;
-  height: 0.5rem;
-  background-color: #fff;
+  /* height: 0.5rem; */
+  /* background-color: #fff; */
 }
 
-.nav-logo-container svg {
-  width: 2rem;
+.logo {
+  width: 95.37px;
+  height: 23.79px;
 }
 
 .nav-center-container {
@@ -205,6 +203,225 @@ header {
   background-color: rgb(27, 25, 19);
 }
 
-.agent-code-behaviour {
+.feature {
   padding-top: 67.2px;
+  padding-bottom: 67.2px;
+}
+
+.agent-code {
+  /* padding-top: 67.2px; */
+  margin-bottom: 89.6px;
+}
+
+.agent-outer {
+  background-color: rgb(27, 25, 19);
+  height: 680px;
+  padding: 17.5px;
+  display: flex;
+  gap: 10px;
+}
+
+.agent-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2.5px;
+  padding-right: 30px;
+  flex: 0 0 340.5px;
+}
+
+.agent-title {
+  font-size: 22px;
+  line-height: 28.6px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.agent-description {
+  font-size: 22px;
+  width: 382px;
+  line-height: 28.6px;
+  font-weight: 400;
+  color: rgba(237, 236, 236, 0.6);
+  letter-spacing: -0.11px;
+  text-wrap-mode: wrap;
+  text-wrap-style: pretty;
+}
+
+.agent-link {
+  margin-top: 14.9333px;
+}
+
+.btn-territory {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(245, 78, 0);
+  line-height: 24px;
+  width: 263.88px;
+}
+
+.agent-image-box {
+  background-color: rgba(66, 60, 52, 1);
+  width: 100%;
+  position: relative;
+}
+
+.agent-image {
+  position: absolute;
+
+  inset: 39px 0 40px auto;
+  /* top | right | bottom | left */
+
+  width: auto;
+  max-width: 96%;
+  height: auto;
+
+  z-index: 10;
+}
+
+/*shs*/
+.autocomplete-container {
+  margin-bottom: 89.6px;
+}
+
+.autocomplete-outer {
+  background-color: rgb(27, 25, 19);
+  height: 650px;
+  padding: 17.5px;
+  display: flex;
+  gap: 10px;
+}
+
+.autocomplete-text {
+  width: 347.5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  padding-right: 2.5px;
+  flex: 0 0 390.5px;
+}
+
+.autocomplete-title {
+  font-size: 22px;
+  line-height: 28.6px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.autocomplete-description {
+  font-size: 22px;
+  line-height: 28.6px;
+  font-weight: 400;
+  color: rgba(237, 236, 236, 0.6);
+  letter-spacing: -0.11px;
+  text-wrap-mode: wrap;
+  text-wrap-style: pretty;
+}
+
+.autocomplete-link {
+  margin-top: 14.9333px;
+}
+
+.btn-territory {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(245, 78, 0);
+  line-height: 24px;
+  width: 263.88px;
+}
+
+.autocomplete-image-box {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.autocomplete-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.autocomplete-feature2-fg {
+  position: absolute;
+  width: 80%;
+  margin: auto;
+  height: 560px;
+  inset: 0;
+}
+
+/*agag*/
+
+.everywhere {
+  padding-top: 67.2px;
+  margin-bottom: 89.6px;
+}
+
+.everywhere-outer {
+  background-color: rgb(27, 25, 19);
+  height: 650px;
+  padding: 17.5px;
+  display: flex;
+  gap: 10px;
+}
+
+.everywhere-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2.5px;
+  padding-right: 30px;
+  flex: 0 0 340.5px;
+}
+
+.everywhere-title {
+  font-size: 22px;
+  line-height: 28.6px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.everywhere-description {
+  font-size: 22px;
+  width: 383px;
+  line-height: 28.6px;
+  font-weight: 400;
+  color: rgba(237, 236, 236, 0.6);
+  letter-spacing: -0.11px;
+  text-wrap-mode: wrap;
+  text-wrap-style: pretty;
+}
+
+.everywhere-link {
+  margin-top: 14.9333px;
+}
+
+.btn-territory {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(245, 78, 0);
+  line-height: 24px;
+  width: 263.88px;
+}
+
+.everywhere-image-box {
+  width: 100%;
+  position: relative;
+}
+
+.everywhere-image {
+  position: absolute;
+
+  inset: 0;
+
+  width: auto;
+  max-width: 100%;
+  height: auto;
 }
