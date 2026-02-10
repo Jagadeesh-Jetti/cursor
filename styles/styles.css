@@ -360,7 +360,6 @@ body {
 
 .everywhere {
   padding-top: 67.2px;
-  margin-bottom: 89.6px;
 }
 
 .everywhere-outer {
@@ -413,6 +412,7 @@ body {
 
 .everywhere-image-box {
   width: 100%;
+  height: 100%;
   position: relative;
 }
 
@@ -423,37 +423,43 @@ body {
 
   width: auto;
   max-width: 100%;
-  height: auto;
+  height: 100%;
 }
 
-.reviews-container {
-  /* text-align: center; */
+.reviews {
+  padding-top: 67.2px;
+  padding-bottom: 67.2px;
 }
 
 .reviews-title {
   text-align: center;
   font-size: 36px;
-  line-height: -0.72px;
+  line-height: 43.2px;
   height: 43.2031px;
+  letter-spacing: -0.72px;
   font-weight: 400;
+  margin: 0;
+  margin-bottom: 56px;
 }
 
 .reviews-box {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
+  /* padding-top: 52px; */
 }
 
 .review {
-  max-width: 426.667px;
+  max-width: 391px;
   padding: 17.5px;
   background-color: rgb(27, 25, 19);
   display: flex;
   flex-direction: column;
 }
 
-.block-qoute {
-  height: 391px;
+.block-quote {
+  flex-grow: 1;
+  width: 100%;
 }
 
 .review-text {
@@ -461,7 +467,8 @@ body {
   text-wrap-style: pretty;
   letter-spacing: 0.08px;
   line-height: 24px;
-  height: 100%;
+  color: rgb(237, 236, 236);
+  width: 100%;
 }
 
 .review-profile-container {
@@ -470,7 +477,6 @@ body {
   margin-top: 44.8px;
   margin-bottom: 0;
   padding-bottom: 0;
-  /* align-items: flex-end; */
 }
 
 .profile-pic {
@@ -492,4 +498,61 @@ body {
 
 .profile-role {
   color: rgba(237, 236, 236, 0.6);
+}
+
+.frontier {
+  padding-top: 67.2px;
+  padding-bottom: 67.2px;
+}
+
+.frontier-title {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.325px;
+  line-height: 24px;
+  max-width: 486.144px;
+  padding: 0;
+  margin-bottom: 22.5px;
+}
+
+.frontier-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.frontier-grid-child {
+  background-color: rgb(27, 25, 19);
+  padding: 17.5px;
+}
+
+.frontier-text-title {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.08px;
+  line-height: 24px;
+  margin: 0;
+}
+
+.frontier-text {
+  color: rgba(237, 236, 236, 0.6);
+}
+
+.frontier-cta-btn {
+  color: rgb(245, 78, 0);
+  padding-top: 14.9333px;
+}
+
+.frontier-cta-btn a {
+  letter-spacing: 0.08px;
+}
+
+.frontier-grid-child-lower {
+  width: 100%;
+  padding-top: 17.5px;
+}
+
+.frontier-image {
+  width: 100%;
+  display: block;
 }
