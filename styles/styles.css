@@ -425,3 +425,71 @@ body {
   max-width: 100%;
   height: auto;
 }
+
+.reviews-container {
+  /* text-align: center; */
+}
+
+.reviews-title {
+  text-align: center;
+  font-size: 36px;
+  line-height: -0.72px;
+  height: 43.2031px;
+  font-weight: 400;
+}
+
+.reviews-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.review {
+  max-width: 426.667px;
+  padding: 17.5px;
+  background-color: rgb(27, 25, 19);
+  display: flex;
+  flex-direction: column;
+}
+
+.block-qoute {
+  height: 391px;
+}
+
+.review-text {
+  text-wrap-mode: wrap;
+  text-wrap-style: pretty;
+  letter-spacing: 0.08px;
+  line-height: 24px;
+  height: 100%;
+}
+
+.review-profile-container {
+  width: 100%;
+  display: flex;
+  margin-top: 44.8px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  /* align-items: flex-end; */
+}
+
+.profile-pic {
+  height: 40px;
+  width: 40px;
+  margin-right: 12.8px;
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+}
+
+.profile-info {
+  font-size: 14px;
+  letter-spacing: 0.14px;
+  line-height: 21px;
+}
+
+.profile-role {
+  color: rgba(237, 236, 236, 0.6);
+}
