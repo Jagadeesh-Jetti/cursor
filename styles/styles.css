@@ -503,10 +503,16 @@ header {
 
 .autonomous-feature2-fg {
   position: absolute;
-  width: 81%;
+  width: 88%;
   margin: auto;
-  height: 560px;
+  height: 85%;
   inset: 0;
+  box-shadow:
+    0 40px 90px rgba(0, 0, 0, 0.22),
+    0 8px 30px rgba(0, 0, 0, 0.18),
+    0 0 120px rgba(0, 0, 0, 0.12);
+}
+.autonomous-image:hover {
 }
 
 .everywhere {
